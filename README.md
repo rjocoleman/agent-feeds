@@ -1,6 +1,6 @@
 # agent-feeds
 
-Pure TypeScript library for reading RSS/Atom/JSON Feed. Markdown output optimised for LLM context windows. Runs on Bun.
+Pure TypeScript library for reading RSS/Atom/JSON Feed. Markdown output optimised for LLM context windows.
 
 - **Library, not a server.** Export functions. The consumer decides how to expose them.
 - **Read-only.** Fetch and parse. No subscriptions, no state, no OPML.
@@ -8,10 +8,12 @@ Pure TypeScript library for reading RSS/Atom/JSON Feed. Markdown output optimise
 - **Token-efficient.** Full article extraction from links, not just feed summaries. Truncate to budget.
 - **Stateless.** No feed list. No read tracking. No cache. URLs in, markdown out.
 
+[![JSR](https://jsr.io/badges/@rjocoleman/agent-feeds)](https://jsr.io/@rjocoleman/agent-feeds)
+
 ## Install
 
 ```bash
-bun add @rjocoleman/agent-feeds
+bunx jsr add @rjocoleman/agent-feeds
 ```
 
 ## Quick Start
