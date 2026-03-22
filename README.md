@@ -1,5 +1,7 @@
 # agent-feeds
 
+[![JSR](https://jsr.io/badges/@rjocoleman/agent-feeds)](https://jsr.io/@rjocoleman/agent-feeds)
+
 Pure TypeScript library for reading RSS/Atom/JSON Feed. Markdown output optimised for LLM context windows.
 
 - **Library, not a server.** Export functions. The consumer decides how to expose them.
@@ -7,8 +9,6 @@ Pure TypeScript library for reading RSS/Atom/JSON Feed. Markdown output optimise
 - **Markdown-native.** Every response is structured markdown ready for direct injection into agent context.
 - **Token-efficient.** Full article extraction from links, not just feed summaries. Truncate to budget.
 - **Stateless.** No feed list. No read tracking. No cache. URLs in, markdown out.
-
-[![JSR](https://jsr.io/badges/@rjocoleman/agent-feeds)](https://jsr.io/@rjocoleman/agent-feeds)
 
 ## Install
 
