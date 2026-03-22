@@ -212,13 +212,11 @@ bun run cli       # run CLI locally
 ### Releasing
 
 ```bash
-bun run version patch   # 0.1.0 -> 0.1.1 (also: minor, major, or explicit x.y.z)
-git add -A && git commit -m "v0.1.1"
-git tag v0.1.1
-git push origin main --tags
+npm version patch      # bumps package.json + jsr.json, commits, tags
+git push --follow-tags
 ```
 
-Pushing a `v*` tag triggers CI checks and publishes to [JSR](https://jsr.io).
+Pushing a `v*` tag triggers CI checks, publishes to [JSR](https://jsr.io), and creates a GitHub release.
 
 ### CI
 
