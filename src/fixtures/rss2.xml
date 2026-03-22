@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Blog</title>
+    <link>https://test.example.com</link>
+    <description>A test RSS feed</description>
+    <item>
+      <title>First Post</title>
+      <link>https://test.example.com/first-post</link>
+      <pubDate>Sat, 21 Mar 2026 19:15:00 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alice</dc:creator>
+      <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>This is the first post content. It has some words in it for testing purposes.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Second Post</title>
+      <link>https://test.example.com/second-post</link>
+      <pubDate>Fri, 20 Mar 2026 14:30:00 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bob</dc:creator>
+      <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Second post with more content. Testing word count and HTML conversion.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Third Post</title>
+      <link>https://test.example.com/third-post</link>
+      <pubDate>Thu, 19 Mar 2026 09:00:00 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alice</dc:creator>
+      <description>A short description only, no full content.</description>
+    </item>
+  </channel>
+</rss>
